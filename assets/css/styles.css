@@ -31,6 +31,10 @@
 /* =========================Hero Section========================== */
 
 #hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65))),
+    url(../imgs/bg.jpg) no-repeat 0px 0px/ cover fixed;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.65)),
+    url(../imgs/bg.jpg) no-repeat 0px 0px/ cover fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.65)),
     url(../imgs/bg.jpg) no-repeat 0px 0px/ cover fixed;
 }
