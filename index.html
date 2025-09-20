@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Daniels">
+    <title>Daniels</title>
+    <!--========================== fav-icon========================= -->
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico" />
+    <!--========================== Font-awesome Icons========================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--========================== Bootstrap css========================= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--========================== Montserrat font========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--========================== Poppins  font========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--========================== main css========================= -->
+    <link rel="stylesheet" href="./assets/css/all.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navBar">
+    <!--========================== Nav Section========================= -->
+    <nav
+      id="navBar"
+      class="navbar navbar-expand-lg bg-white fixed-top z-3 py-10"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand Montserrat fs-18 fw-800 text-uppercase"
+          href="#hero"
+          >Daniels</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-40">
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0 active"
+                aria-current="page"
+                href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#portfolio"
+                >Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#testimonials"
+                >Clients</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#team"
+                >Team</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link position-relative Poppins fs-14 p-0"
+                aria-current="page"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--========================== Hero Section========================= -->
+    <div
+      id="hero"
+      class="vh-100 d-flex justify-content-center align-items-center text-center text-white"
+    >
+      <div class="container mt-5">
+        <p class="fs-50 fw-800 Montserrat">Hello</p>
+        <h1 class="text-capitalize Montserrat fw-200 mt-10 mb-30">
+          i am <span id="dynamic" class="animated-text fw-normal"></span>
+        </h1>
+        <div class="d-flex align-items-center gap-2 justify-content-center">
+          <div
+            class="icon-wrapper fs-14 rounded-circle d-flex align-items-center justify-content-center"
+            style="background: rgba(0, 0, 0, 0.3)"
+          >
+            <a href="#" class="text-white"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+          <div
+            class="icon-wrapper fs-14 rounded-circle d-flex align-items-center justify-content-center"
+            style="background: rgba(0, 0, 0, 0.3)"
+          >
+            <a href="#" class="text-white"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div
+            class="icon-wrapper fs-14 rounded-circle d-flex align-items-center justify-content-center"
+            style="background: rgba(0, 0, 0, 0.3)"
+          >
+            <a href="#" class="text-white"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div
+            class="icon-wrapper fs-14 rounded-circle d-flex align-items-center justify-content-center"
+            style="background: rgba(0, 0, 0, 0.3)"
+          >
+            <a href="#" class="text-white"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </div>
+          <div
+            class="icon-wrapper fs-14 rounded-circle d-flex align-items-center justify-content-center"
+            style="background: rgba(0, 0, 0, 0.3)"
+          >
+            <a href="#" class="text-white"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========================== About Section========================= -->
+    <div id="about" class="sec-pd">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-12 col-lg-5">
+            <div class="img-wrapper ps-30 position-relative mb-30">
+              <img src="./assets/imgs/hero.jpg" alt="about image" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <div class="about-content">
+              <h2
+                class="text-capitalize Montserrat fw-800 fs-30 mb-1"
+                style="color: #343434"
+              >
+                about me
+              </h2>
+              <span
+                class="text-uppercase Poppins fs-14 text-body-tertiary mb-20 d-block letter"
+                >UI/UX Designer&Web Developer</span
+              >
+              <p class="fs-6 fw-normal Poppins" style="color: #748182">
+                I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is
+                simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever It
+                has survived not only five centuries, but also the leap into
+                electronic but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s
+                with the release of Letraset sheets containing
+              </p>
+
+              <div class="skills mt-30">
+                <div
+                  class="progress mb-30"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar flex-row justify-content-between align-items-center fw-medium Montserrat"
+                    style="width: 95%"
+                  >
+                    <h6 class="text-capitalize fs-14">web design</h6>
+                    <span>95%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-30"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar flex-row justify-content-between align-items-center fw-medium Montserrat"
+                    style="width: 80%"
+                  >
+                    <h6 class="text-capitalize fs-14">branding</h6>
+                    <span>80%</span>
+                  </div>
+                </div>
+                <div
+                  class="progress mb-50"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div
+                    class="progress-bar flex-row justify-content-between align-items-center fw-medium Montserrat"
+                    style="width: 90%"
+                  >
+                    <h6 class="text-capitalize fs-14">development</h6>
+                    <span>90%</span>
+                  </div>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                class="text-capitalize btn btn-dark Poppins py-10 px-30 fs-13 download me-1"
+                >download C.V</a
+              ><a
+                href="#"
+                class="text-capitalize btn btn-outline-dark Poppins py-10 px-30 fs-13 contact"
+                >contact me</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--========================== Services Section========================= -->
+
+    <div id="services" class="sec-pd" style="background-color: #f4f4f4">
+      <div class="container">
+        <div class="sec-heading-wrapper text-center mb-80">
+          <h2
+            class="Montserrat text-capitalize fs-40 fw-900 position-relative d-inline-block z-2"
+          >
+            services.
+          </h2>
+        </div>
+
+        <div class="services-wrapper row gy-4">
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                web design
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                branding
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-umbrella"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                development
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-regular fa-gem"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                creative design
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-tv"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                fully responsive
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div
+              class="service-card rounded-1 bg-white text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div
+                class="icon-wrapper fs-3 rounded-circle d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-camera"></i>
+              </div>
+              <h3
+                class="text-capitalize fw-800 Montserrat fs-18"
+                style="color: #343434"
+              >
+                retina ready
+              </h3>
+              <p
+                class="Poppins fs-14 fw-normal lh-md"
+                style="color: #748182; word-spacing: 2px"
+              >
+                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                industry's standard dummy text ever
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Portfolio Section========================= -->
+
+    <div id="portfolio" class="sec-pd">
+      <div class="container">
+        <div class="sec-heading-wrapper text-center mb-80">
+          <h2
+            class="Montserrat text-capitalize fs-40 fw-900 position-relative d-inline-block z-2"
+          >
+            Portfolio.
+          </h2>
+        </div>
+
+        <ul
+          class="nav nav-pills mb-50 d-flex justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              style="color: #222"
+              class="nav-link position-relative pb-1 text-capitalize p-0 me-3 fs-6 fw-bold Poppins active"
+              id="pills-all-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-all"
+              type="button"
+              role="tab"
+              aria-controls="pills-all"
+              aria-selected="true"
+            >
+              all
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              style="color: #222"
+              class="nav-link position-relative pb-1 text-capitalize p-0 me-3 fs-6 fw-bold Poppins"
+              id="pills-brand-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-brand"
+              type="button"
+              role="tab"
+              aria-controls="pills-brand"
+              aria-selected="false"
+            >
+              brand
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              style="color: #222"
+              class="nav-link position-relative pb-1 text-capitalize p-0 me-3 fs-6 fw-bold Poppins"
+              id="pills-design-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-design"
+              type="button"
+              role="tab"
+              aria-controls="pills-design"
+              aria-selected="false"
+            >
+              design
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              style="color: #222"
+              class="nav-link position-relative pb-1 text-capitalize p-0 me-3 fs-6 fw-bold Poppins"
+              id="pills-graphic-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-graphic"
+              type="button"
+              role="tab"
+              aria-controls="pills-graphic"
+              aria-selected="false"
+            >
+              graphic
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-all"
+            role="tabpanel"
+            aria-labelledby="pills-all-tab"
+            tabindex="0"
+          >
+            <div class="potofolio-wrapper row gy-4">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/1.jpg" alt="portfolio-1" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/2.jpg" alt="portfolio-2" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/3.jpg" alt="portfolio-3" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/4.jpg" alt="portfolio-4" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/5.jpg" alt="portfolio-5" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/6.jpg" alt="portfolio-6" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-brand"
+            role="tabpanel"
+            aria-labelledby="pills-brand-tab"
+            tabindex="0"
+          >
+            <div class="potofolio-wrapper row gy-4">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/4.jpg" alt="portfolio-4" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/6.jpg" alt="portfolio-6" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-design"
+            role="tabpanel"
+            aria-labelledby="pills-design-tab"
+            tabindex="0"
+          >
+            <div class="potofolio-wrapper row gy-4">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/2.jpg" alt="portfolio-2" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/5.jpg" alt="portfolio-5" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-graphic"
+            role="tabpanel"
+            aria-labelledby="pills-graphic-tab"
+            tabindex="0"
+          >
+            <div class="potofolio-wrapper row gy-4">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/1.jpg" alt="portfolio-1" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/3.jpg" alt="portfolio-3" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="img-wrapper position-relative">
+                  <img src="./assets/imgs/portfolio/5.jpg" alt="portfolio-5" />
+                  <div
+                    class="overlay d-flex flex-column align-items-center justify-content-center gap-3"
+                  >
+                    <h6
+                      class="fw-bold Montserrat fs-12 text-uppercase letter content"
+                      style="color: #343434"
+                    >
+                      web design
+                    </h6>
+                    <div class="icons d-flex gap-1">
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-link"></i>
+                      </a>
+                      <a
+                        href="#"
+                        class="icon-wrapper fs-12 rounded-circle d-flex align-items-center justify-content-center"
+                      >
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Testimonials Section========================= -->
+
+    <div id="testimonials" class="sec-pd-100" style="background-color: #f4f4f4">
+      <div class="container">
+        <div class="sec-heading-wrapper text-center mb-80">
+          <h2
+            class="Montserrat text-capitalize fs-40 fw-900 position-relative d-inline-block z-2"
+          >
+            Testimonials.
+          </h2>
+        </div>
+
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="testimonial-wrapper d-flex flex-column align-items-center text-center"
+              >
+                <div class="img_wrapper rounded-circle overflow-hidden mb-3">
+                  <img src="./assets/imgs/1_New1.jpg" alt="person img" />
+                </div>
+                <p
+                  class="Poppins fs-15 fw-normal lh-md col-12 col-md-11 col-lg-10 mb-30"
+                  style="color: #748182; word-spacing: 2px"
+                >
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book.
+                </p>
+                <h6
+                  class="Montserrat fs-6 fw-semibold mb-2"
+                  style="color: #343434"
+                >
+                  Alex Smith
+                </h6>
+                <span
+                  class="Poppins fs-12 fw-semibold mb-30"
+                  style="color: #888"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="testimonial-wrapper d-flex flex-column align-items-center text-center"
+              >
+                <div class="img_wrapper rounded-circle overflow-hidden mb-3">
+                  <img src="./assets/imgs/1_New1.jpg" alt="person img" />
+                </div>
+                <p
+                  class="Poppins fs-15 fw-normal lh-md col-12 col-md-11 col-lg-10 mb-30"
+                  style="color: #748182; word-spacing: 2px"
+                >
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book.
+                </p>
+                <h6
+                  class="Montserrat fs-6 fw-semibold mb-2"
+                  style="color: #343434"
+                >
+                  Alex Smith
+                </h6>
+                <span
+                  class="Poppins fs-12 fw-semibold mb-30"
+                  style="color: #888"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="testimonial-wrapper d-flex flex-column align-items-center text-center"
+              >
+                <div class="img_wrapper rounded-circle overflow-hidden mb-3">
+                  <img src="./assets/imgs/1_New1.jpg" alt="person img" />
+                </div>
+                <p
+                  class="Poppins fs-15 fw-normal lh-md col-12 col-md-11 col-lg-10 mb-30"
+                  style="color: #748182; word-spacing: 2px"
+                >
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  since the when an unknown printer took a galley of type and
+                  scrambled it to make a type specimen book.
+                </p>
+                <h6
+                  class="Montserrat fs-6 fw-semibold mb-2"
+                  style="color: #343434"
+                >
+                  Alex Smith
+                </h6>
+                <span
+                  class="Poppins fs-12 fw-semibold mb-30"
+                  style="color: #888"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators position-static mt-10 gap-2 mb-0">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Status Section========================= -->
+    <div id="status" class="sec-pd">
+      <div class="container">
+        <div class="status-wrapper row">
+          <div class="col-12 col-lg-3">
+            <div
+              class="status-card pb-30 text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div class="icon-wrapper fs-3"><i class="fa fa-users"></i></div>
+              <h3 class="Montserrat fw-900 fs-30" style="color: #343434">
+                850
+              </h3>
+              <p
+                class="Poppins fs-15 text-capitalize fw-semibold"
+                style="color: #748182"
+              >
+                happy customers
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div
+              class="status-card pb-30 text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div class="icon-wrapper fs-3"><i class="fa fa-users"></i></div>
+              <h3 class="Montserrat fw-900 fs-30" style="color: #343434">
+                230
+              </h3>
+              <p
+                class="Poppins fs-15 text-capitalize fw-semibold"
+                style="color: #748182"
+              >
+                complete projects
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div
+              class="status-card pb-30 text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div class="icon-wrapper fs-3"><i class="fa fa-users"></i></div>
+              <h3 class="Montserrat fw-900 fs-30" style="color: #343434">
+                9450
+              </h3>
+              <p
+                class="Poppins fs-15 text-capitalize fw-semibold"
+                style="color: #748182"
+              >
+                lines of code
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div
+              class="status-card pb-30 text-center d-flex flex-column align-items-center gap-3"
+            >
+              <div class="icon-wrapper fs-3"><i class="fa fa-users"></i></div>
+              <h3 class="Montserrat fw-900 fs-30" style="color: #343434">
+                850
+              </h3>
+              <p
+                class="Poppins fs-15 text-capitalize fw-semibold"
+                style="color: #748182"
+              >
+                files downloaded
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Team Section========================= -->
+
+    <div id="team" class="sec-pd-100" style="background-color: #f4f4f4">
+      <div class="container">
+        <div class="sec-heading-wrapper text-center mb-80">
+          <h2
+            class="Montserrat text-capitalize fs-40 fw-900 position-relative d-inline-block z-2"
+          >
+            Our Team.
+          </h2>
+        </div>
+        <div class="team-wrapper row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="team-card mb-10">
+              <div class="img-wrapper position-relative overflow-hidden">
+                <img src="./assets/imgs/1.jpg" alt="man-1 img" />
+                <div
+                  class="overlay d-flex justify-content-center align-items-center"
+                >
+                  <div class="icons d-flex gap-14">
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="img-content p-25 text-white text-center rounded-bottom"
+                style="background-color: #5b5b5b"
+              >
+                <h4 class="Montserrat fw-medium fs-25 mb-1 text-capitalize">
+                  john doe
+                </h4>
+                <h5 class="Montserrat fw-bold fs-20 text-uppercase">
+                  Front-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="team-card mb-10">
+              <div class="img-wrapper position-relative overflow-hidden">
+                <img src="./assets/imgs/2.jpg" alt="man-1 img" />
+                <div
+                  class="overlay d-flex justify-content-center align-items-center"
+                >
+                  <div class="icons d-flex gap-14">
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="img-content p-25 text-white text-center rounded-bottom"
+                style="background-color: #5b5b5b"
+              >
+                <h4 class="Montserrat fw-medium fs-25 mb-1 text-capitalize">
+                  dave wood
+                </h4>
+                <h5 class="Montserrat fw-bold fs-20 text-uppercase">
+                  Back-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="team-card mb-10">
+              <div class="img-wrapper position-relative overflow-hidden">
+                <img src="./assets/imgs/1.jpg" alt="man-1 img" />
+                <div
+                  class="overlay d-flex justify-content-center align-items-center"
+                >
+                  <div class="icons d-flex gap-14">
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a
+                      href="#"
+                      class="icon-wrapper fs-6 rounded-circle d-flex align-items-center justify-content-center"
+                    >
+                      <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="img-content p-25 text-white text-center rounded-bottom"
+                style="background-color: #5b5b5b"
+              >
+                <h4 class="Montserrat fw-medium fs-25 mb-1 text-capitalize">
+                  claire chedd
+                </h4>
+                <h5 class="Montserrat fw-bold fs-20 text-uppercase">
+                  Back-End Developer
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Contact Section========================= -->
+
+    <div id="contact" class="sec-pd">
+      <div class="container">
+        <div class="sec-heading-wrapper text-center mb-80">
+          <h2
+            class="Montserrat text-capitalize fs-40 fw-900 position-relative d-inline-block z-2"
+          >
+            Contact Us.
+          </h2>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="row content-cards g-30 mb-50">
+            <div class="col-12 col-lg-4">
+              <div class="content-card d-flex flex-column align-items-center">
+                <div
+                  class="icon-wrapper fs-5 mb-3 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa fa-location-arrow"></i>
+                </div>
+                <h6
+                  class="Montserrat fs-6 fw-bold text-capitalize mb-10"
+                  style="color: #343434"
+                >
+                  address
+                </h6>
+                <p
+                  class="Poppins fs-15 fw-normal text-capitalize"
+                  style="color: #748182"
+                >
+                  6834 Hollywood Blvd - Los Angeles CA
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="content-card d-flex flex-column align-items-center">
+                <div
+                  class="icon-wrapper fs-5 mb-3 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <h6
+                  class="Montserrat fs-6 fw-bold text-capitalize mb-10"
+                  style="color: #343434"
+                >
+                  email
+                </h6>
+                <p class="Poppins fs-15 fw-normal" style="color: #748182">
+                  Support@website.com
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="content-card d-flex flex-column align-items-center">
+                <div
+                  class="icon-wrapper fs-5 mb-3 rounded-circle d-flex align-items-center justify-content-center"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <h6
+                  class="Montserrat fs-6 fw-bold text-capitalize mb-10"
+                  style="color: #343434"
+                >
+                  phone
+                </h6>
+                <p class="Poppins fs-15 fw-normal" style="color: #748182">
+                  +20 010 2517 8918
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <form action="#" method="post" class="contact-form row gx-30 gy-15">
+            <div class="col-12 col-lg-6">
+              <input
+                type="text"
+                class="form-control fs-14 Poppins fw-normal"
+                id="exampleFormControlInput1"
+                required
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-12 col-lg-6">
+              <input
+                type="email"
+                class="form-control fs-14 Poppins fw-normal"
+                id="exampleFormControlInput1"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                rows="4"
+                class="form-control fs-14 Poppins fw-normal"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+              ></textarea>
+            </div>
+          </form>
+          <a
+            href="#"
+            class="text-capitalize btn btn-dark Poppins py-10 fs-13 download me-1 mt-20 sub"
+            >submit</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--========================== Footer Section========================= -->
+    <footer class="py-30 text-center" style="background-color: #1c1c1c;">
+      <p class="text-capitalize Poppins fs-13 fw-normal" style="color: #748182">
+        Copy Right 2018 © By Daniels All Rights Reserved
+      </p>
+    </footer>
+    <!--========================== Typed css========================= -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#dynamic", {
+        strings: ["Larry Daniels", "Designer", "Developer"],
+        typeSpeed: 80,
+        backSpeed: 50,
+        backDelay: 1500,
+        loop: true,
+      });
+    </script>
+    
+
+    <!--========================== Bootstrap js========================= -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

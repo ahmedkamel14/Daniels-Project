@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  #hero h1 {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact .content-wrapper {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1170px) {
+  #hero h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    text-align: center;
+    border: none;
+    width: 100%;
+    background: #fff;
+    margin-top: 5px;
+    padding-block: 15px;
+    color: #111;
+  }
+}

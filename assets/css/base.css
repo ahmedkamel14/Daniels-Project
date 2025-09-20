@@ -1,0 +1,183 @@
+/* ===============fonts================== */
+
+.Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ======================style================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.py-10 {
+  padding-block: 10px;
+}
+
+.px-30 {
+  padding-inline: 30px;
+}
+
+.py-30 {
+  padding-block: 30px;
+}
+
+.ps-30 {
+  padding-left: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.g-30 {
+  --bs-gutter-x: 1.875rem;
+  --bs-gutter-y: 1.875rem;
+}
+
+.gx-30 {
+  --bs-gutter-x: 1.875rem;
+}
+
+.gy-15 {
+  --bs-gutter-y: 0.9375rem;
+}
+
+.gap-14 {
+  gap: 14px;
+}
+
+.gap-40{
+  gap: 2.5rem !important;
+}
+
+.lh-md {
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.sec-pd {
+  padding: 100px 0 70px 0;
+}
+
+.sec-pd-100 {
+  padding-block: 100px;
+}
+
+.letter {
+  letter-spacing: 2px;
+}
+
+.sec-heading-wrapper h2::after {
+  content: "";
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../imgs/dots.png);
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}

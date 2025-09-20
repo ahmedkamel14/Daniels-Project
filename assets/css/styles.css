@@ -1,0 +1,448 @@
+/* =========================NavBar Section========================== */
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #111 !important;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #111;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-focus-width: 0;
+  --bs-navbar-toggler-transition: none;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+}
+
+/* =========================Hero Section========================== */
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.65)),
+    url(../imgs/bg.jpg) no-repeat 0px 0px/ cover fixed;
+}
+
+#hero h1 {
+  font-size: 30px;
+}
+
+#hero .icon-wrapper {
+  width: 35px;
+  height: 35px;
+}
+
+/* .animated-text::after {
+  content: "";
+  animation: dynamicText 10s infinite;
+} */
+
+/* @keyframes dynamicText {
+  0% {
+    content: "|";
+  }
+  2% {
+    content: "L|";
+  }
+  4% {
+    content: "La|";
+  }
+  6% {
+    content: "Lar|";
+  }
+  8% {
+    content: "Larr|";
+  }
+  10% {
+    content: "Larry|";
+  }
+  12% {
+    content: "Larry D|";
+  }
+  14% {
+    content: "Larry Da|";
+  }
+  16% {
+    content: "Larry Dan|";
+  }
+  18% {
+    content: "Larry Dani|";
+  }
+  20% {
+    content: "Larry Danie|";
+  }
+  22% {
+    content: "Larry Daniel|";
+  }
+  24% {
+    content: "Larry Daniels|";
+  }
+
+  28% {
+    content: "Larry Daniels|";
+  }
+
+  32% {
+    content: "Larry Daniel|";
+  }
+  34% {
+    content: "Larry Danie|";
+  }
+  36% {
+    content: "Larry Dani|";
+  }
+  38% {
+    content: "Larry Dan|";
+  }
+  40% {
+    content: "Larry Da|";
+  }
+  42% {
+    content: "Larry D|";
+  }
+  44% {
+    content: "Larry|";
+  }
+  46% {
+    content: "Larr|";
+  }
+  48% {
+    content: "Lar|";
+  }
+  50% {
+    content: "La|";
+  }
+  52% {
+    content: "L|";
+  }
+  54% {
+    content: "|";
+  }
+
+  56% {
+    content: "D|";
+  }
+  58% {
+    content: "De|";
+  }
+  60% {
+    content: "Des|";
+  }
+  62% {
+    content: "Desi|";
+  }
+  64% {
+    content: "Desig|";
+  }
+  66% {
+    content: "Design|";
+  }
+  68% {
+    content: "Designe|";
+  }
+  70% {
+    content: "Designer|";
+  }
+
+  74% {
+    content: "Designer|";
+  }
+
+  76% {
+    content: "Designe|";
+  }
+  78% {
+    content: "Design|";
+  }
+  80% {
+    content: "Desig|";
+  }
+  82% {
+    content: "Desi|";
+  }
+  84% {
+    content: "Des|";
+  }
+  86% {
+    content: "De|";
+  }
+  88% {
+    content: "D|";
+  }
+  90% {
+    content: "|";
+  }
+
+  92% {
+    content: "D|";
+  }
+  93% {
+    content: "De|";
+  }
+  94% {
+    content: "Dev|";
+  }
+  95% {
+    content: "Deve|";
+  }
+  96% {
+    content: "Devel|";
+  }
+  97% {
+    content: "Develo|";
+  }
+  98% {
+    content: "Develop|";
+  }
+  99% {
+    content: "Develope|";
+  }
+  100% {
+    content: "Developer|";
+  }
+} */
+
+/* =========================About Section========================== */
+
+#about .img-wrapper::after {
+  content: "";
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  background-image: url(../imgs/dots.png);
+  z-index: -1;
+}
+
+.progress {
+  height: 24px;
+  background-color: #f7f7f7;
+  --bs-progress-bar-bg: #1c1c1c;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+
+.progress-bar {
+  padding: 5px 10px;
+}
+
+#about .about-content .download {
+  --bs-btn-padding-x: 0;
+  --bs-btn-padding-y: 0;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: #eee;
+  --bs-btn-hover-color: #343434;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: #343434;
+  padding: 10px 30px;
+  transition: all 0.5s;
+}
+
+/* =========================Services Section========================== */
+
+#services .services-wrapper .service-card {
+  padding: 50px 20px;
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+#services .services-wrapper .service-card .icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background-color: #f4f4f4;
+  transition: all 0.3s ease-in-out;
+}
+
+#services .services-wrapper .service-card:hover .icon-wrapper {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* =========================Portfolio Section========================== */
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+.nav-pills .nav-link.active::after {
+  width: 95%;
+}
+
+.nav-pills .nav-link::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio .potofolio-wrapper .img-wrapper .overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background-color: rgba(255, 255, 255, 0.95);
+  transform: translateY(15px);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .potofolio-wrapper .img-wrapper .overlay .icon-wrapper {
+  width: 30px;
+  height: 30px;
+  background: #111;
+  color: #fdfdfd;
+}
+
+#portfolio .potofolio-wrapper .img-wrapper .overlay .icon-wrapper:hover {
+  background: #fdfdfd;
+  color: #111;
+  border: 1px solid #111;
+}
+
+#portfolio .potofolio-wrapper .img-wrapper .overlay .content {
+  transform: translateY(-20px);
+  transition: all 0.5s ease-in-out;
+}
+
+/* #portfolio .potofolio-wrapper .img-wrapper .overlay .icons {
+  transform: translateY(0px);
+  transition: all 0.5s ease-in-out;
+} */
+
+#portfolio .potofolio-wrapper .img-wrapper:hover .overlay .content,
+#portfolio .potofolio-wrapper .img-wrapper:hover .overlay .icons {
+  transform: translateY(0);
+}
+
+#portfolio .potofolio-wrapper .img-wrapper:hover .overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* =========================Testimonials Section========================== */
+
+#testimonials .testimonial-wrapper .img_wrapper {
+  width: 90px;
+  height: 90px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 100vw;
+  border: none;
+  background: #d6d6d6;
+  transition: none;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #869791;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #869791;
+}
+
+/* =========================Team Section========================== */
+
+#team .team-wrapper .team-card .img-wrapper .overlay {
+  position: absolute;
+  transform: scale(0.5) rotateY(180deg);
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  cursor: pointer;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+#team .team-wrapper .team-card:hover .overlay {
+  transform: scale(1) rotateY(0deg);
+  opacity: 1;
+}
+
+#team .team-wrapper .team-card .img-wrapper:hover img {
+  transform: scale(1.2);
+}
+
+#team .team-wrapper .team-card .img-wrapper img {
+  transition: all 0.4s ease-in-out;
+}
+
+#team .team-wrapper .team-card .img-wrapper .overlay .icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background: #111;
+  color: #fdfdfd;
+}
+
+#team .team-wrapper .team-card .img-wrapper .overlay .icon-wrapper:hover {
+  background: #fdfdfd;
+  color: #111;
+  border: 1px solid #111;
+}
+
+/* =========================Contact Section========================== */
+
+#contact .content-wrapper .content-card .icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .content-wrapper .content-card:hover .icon-wrapper {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+#contact .content-wrapper .contact-form input,
+#contact .content-wrapper .contact-form textarea {
+  background-color: #f4f4f4;
+}
+textarea {
+  height: 160px;
+}
+
+.form-control {
+  border: none;
+  padding: 10px;
+}
+
+.form-control:focus {
+  color: #111;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#contact .content-wrapper .sub {
+  --bs-btn-padding-x: 0;
+  --bs-btn-padding-y: 0;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-color: #eee;
+  --bs-btn-hover-color: #343434;
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: #343434;
+  padding: 10px 40px;
+  transition: all 0.5s;
+}
